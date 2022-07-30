@@ -1,0 +1,20 @@
+base:
+  input_data_path: data
+  output_data_path: results
+  output_density_map: density_maps
+  checkpoint: checkpoints
+
+  log_dir: logs
+  log_file: log.txt
+
+  kdtree_leafsize: 2048
+  number_of_nearset_points: 4
+  down_sample: 4
+
+  shuffle: True
+  batch_size: 1
+  epoch: 1
+  learning_rate: 0.0001
+  momentum: 0.9
+  weight_decay: 5e-4
+  

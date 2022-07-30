@@ -1,0 +1,10 @@
+opencv-python
+matplotlib
+PyYAML
+numpy
+scipy
+torch
+torchvision
+torchaudio
+
+-e .
