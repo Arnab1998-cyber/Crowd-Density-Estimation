@@ -30,10 +30,15 @@ class training:
         self.model = MCNN()
         self.criterian = nn.MSELoss()
 
+        self.cuda = torch.cuda.is_available()
+
     def fit(self, epochs, learning_rate, momentum, checkpoint_dir, weight_decay=None):
         if len(os.listdir(checkpoint_dir)) > 0:
             checkpoint_path = os.path.join(checkpoint_dir, os.listdir(checkpoint_dir)[0])
-            checkpoint = torch.load(checkpoint_path, map_location=torch.device('cpu'))
+            if self.cuda:
+                checkpoint = torch.load(checkpoint_path)
+            else:
+                checkpoint = torch.load(checkpoint_path, map_location=torch.device('cpu'))
             self.model.load_state_dict(checkpoint['model_state_dict'])
         self.optimizer = optim.SGD(self.model.parameters(), lr=learning_rate, momentum=momentum)
         for epoch in range(epochs):

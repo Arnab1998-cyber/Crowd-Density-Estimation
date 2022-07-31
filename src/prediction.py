@@ -29,9 +29,16 @@ class prediction:
         self.result_path = os.path.join('src', result_path)
         self.density_map_path = os.path.join(density_map_path)
 
+        self.cuda = torch.cuda.is_available()
+
         self.model = MCNN()
-        checkpoint = torch.load(checkpoint_path, map_location=torch.device('cpu'))
+        if self.cuda:
+            checkpoint = torch.load(checkpoint_path)
+        else:
+            checkpoint = torch.load(checkpoint_path, map_location=torch.device('cpu'))
         self.model.load_state_dict(checkpoint['model_state_dict'])
+
+        
         
     def get_custom_photo(self, image):
         if len(image.shape)==2: # expand grayscale image to three channel.
@@ -52,6 +59,8 @@ class prediction:
     def predict_image(self, img, from_video=False):
         img_tensor = self.get_custom_photo(img)
         img_tensor = img_tensor.expand(1, img_tensor.shape[0],img_tensor.shape[1],img_tensor.shape[2])
+        if self.cuda:
+            img_tensor = img_tensor.cuda()
         output = self.model(img_tensor)
         output = output.detach().numpy()
         self.get_density_map(output)
