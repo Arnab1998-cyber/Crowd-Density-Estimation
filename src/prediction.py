@@ -12,6 +12,7 @@ from tqdm import tqdm
 from matplotlib import cm as CM
 from src.utils.all_utils import read_yaml, log
 from src.model import MCNN
+import pyttsx3 as p
 
 class prediction:
     def __init__(self, config_path, downsample):
@@ -38,8 +39,15 @@ class prediction:
             checkpoint = torch.load(checkpoint_path, map_location=torch.device('cpu'))
         self.model.load_state_dict(checkpoint['model_state_dict'])
 
-        
-        
+        self.engine = p.init()
+        rate = self.engine.getProperty('rate')
+        self.engine.setProperty('rate',180)
+        voices = self.engine.getProperty('voices')
+        self.engine.setProperty('voice',voices[1].id)
+
+        self.count = 0
+        self.frame_check = 2
+            
     def get_custom_photo(self, image):
         if len(image.shape)==2: # expand grayscale image to three channel.
             image=image[:,:,np.newaxis]
@@ -56,7 +64,7 @@ class prediction:
         plt.imsave(path, output)
         log('Density map of your input has been saved in {}'.format(path), self.logfile)
 
-    def predict_image(self, img, from_video=False):
+    def predict_image(self, img, max_crowd=None, from_video=False):
         img_tensor = self.get_custom_photo(img)
         img_tensor = img_tensor.expand(1, img_tensor.shape[0],img_tensor.shape[1],img_tensor.shape[2])
         if self.cuda:
@@ -70,23 +78,34 @@ class prediction:
         print(s)
         text = "Crowd Density: {}".format(s)
         cv2.putText(img, text, (50,50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2, cv2.LINE_AA)
+        if max_crowd:
+            text = "Max Crowd should be: {}".format(max_crowd)
+            cv2.putText(img, text, (50,90), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2, cv2.LINE_AA)
         if not from_video:
             cv2.imshow('feed', img)
             cv2.waitKey(0)
         return img, s 
 
-    def predict_video(self, video_path):
+    def predict_video(self, video_path, max_crowd=None):
         cap = cv2.VideoCapture(video_path)
         while cap.isOpened():
             ret, frame = cap.read()
             
             if ret == True:
                 if frame.shape[0] >= 1024:
-                    frame = cv2.resize(frame,(1024,1024))
-                image, s = self.predict_image(frame, from_video=True)
+                    frame = cv2.resize(frame, (1024,1024))
+                #frame = cv2.resize(frame, (700,700))
+                image, s = self.predict_image(frame, max_crowd=max_crowd, from_video=True)
                 
                 cv2.imshow('feed', image)
-                if cv2.waitKey(25) & 0xFF==ord('q'):
+                if s > int(max_crowd):
+                    self.count += 1
+                    if self.count > self.frame_check:
+                        self.engine.say("Crowd density is very high! Please clear the crowd.")
+                        self.engine.runAndWait()
+                else:
+                    self.count = 0
+                if cv2.waitKey(1) & 0xFF==ord('q'):
                     break
             else:
                 break

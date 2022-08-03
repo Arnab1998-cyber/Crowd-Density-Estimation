@@ -6,5 +6,6 @@ setup(
     author='Arnab Mitra',
     description='Face Monitering System',
     packages=['src'],
-    install_requires=['torch','torchvision','torchaudio','opencv-python','matplotlib','PyYAML','numpy','scipy']
+    install_requires=['torch','torchvision','torchaudio','opencv-python','matplotlib','PyYAML','numpy','scipy','pyttsx3']
+    
 )

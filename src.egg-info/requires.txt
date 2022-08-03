@@ -3,5 +3,7 @@ torchvision
 torchaudio
 opencv-python
 matplotlib
+PyYAML
 numpy
 scipy
+pyttsx3

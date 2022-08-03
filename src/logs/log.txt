@@ -3841,3 +3841,92 @@
 30/07/2022  08:53:46 PM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
 30/07/2022  08:53:49 PM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
 30/07/2022  11:13:03 PM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  08:19:19 AM : root : INFO : input image uploaded
+03/08/2022  08:19:35 AM : root : INFO : input image uploaded
+03/08/2022  08:19:38 AM : root : INFO : Video uploaded
+03/08/2022  08:33:44 AM : root : INFO : input image uploaded
+03/08/2022  08:33:50 AM : comtypes.client._code_cache : INFO : Could not import comtypes.gen, trying to create it.
+03/08/2022  08:33:50 AM : comtypes.client._code_cache : INFO : Created comtypes.gen directory: 'D:\jupyter_notebook\crowd_count\crowd\lib\site-packages\comtypes\gen'
+03/08/2022  08:33:50 AM : comtypes.client._code_cache : INFO : Writing __init__.py file: 'D:\jupyter_notebook\crowd_count\crowd\lib\site-packages\comtypes\gen\__init__.py'
+03/08/2022  08:33:50 AM : comtypes.client._code_cache : INFO : Using writeable comtypes cache directory: 'D:\jupyter_notebook\crowd_count\crowd\lib\site-packages\comtypes\gen'
+03/08/2022  08:33:50 AM : comtypes.client._generate : INFO : Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+03/08/2022  08:33:50 AM : comtypes.client._generate : INFO : # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+03/08/2022  08:33:50 AM : comtypes.client._generate : INFO : Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+03/08/2022  08:33:50 AM : comtypes.client._generate : INFO : # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+03/08/2022  08:33:50 AM : comtypes.client._generate : INFO : Could not import comtypes.gen.stdole: No module named 'comtypes.gen.stdole'
+03/08/2022  08:33:50 AM : comtypes.client._generate : INFO : # Generating comtypes.gen.stdole
+03/08/2022  08:33:51 AM : comtypes.client._generate : INFO : Could not import comtypes.gen.SpeechLib: No module named 'comtypes.gen.SpeechLib'
+03/08/2022  08:33:51 AM : comtypes.client._generate : INFO : # Generating comtypes.gen.SpeechLib
+03/08/2022  08:33:58 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  08:35:00 AM : root : INFO : Video uploaded
+03/08/2022  08:35:12 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  08:37:14 AM : root : INFO : Video uploaded
+03/08/2022  08:37:18 AM : comtypes.client._code_cache : INFO : Imported existing <module 'comtypes.gen' from 'D:\\jupyter_notebook\\crowd_count\\crowd\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+03/08/2022  08:37:18 AM : comtypes.client._code_cache : INFO : Using writeable comtypes cache directory: 'D:\jupyter_notebook\crowd_count\crowd\lib\site-packages\comtypes\gen'
+03/08/2022  08:37:21 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  08:40:02 AM : root : INFO : Video uploaded
+03/08/2022  08:40:07 AM : comtypes.client._code_cache : INFO : Imported existing <module 'comtypes.gen' from 'D:\\jupyter_notebook\\crowd_count\\crowd\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+03/08/2022  08:40:07 AM : comtypes.client._code_cache : INFO : Using writeable comtypes cache directory: 'D:\jupyter_notebook\crowd_count\crowd\lib\site-packages\comtypes\gen'
+03/08/2022  08:40:09 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  08:40:17 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  08:40:23 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  08:40:30 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  08:40:36 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  08:40:42 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  08:40:49 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  08:49:28 AM : root : INFO : Video uploaded
+03/08/2022  08:50:36 AM : root : INFO : Video uploaded
+03/08/2022  08:51:11 AM : root : INFO : Video uploaded
+03/08/2022  08:58:41 AM : root : INFO : Video uploaded
+03/08/2022  08:58:51 AM : comtypes.client._code_cache : INFO : Imported existing <module 'comtypes.gen' from 'D:\\jupyter_notebook\\crowd_count\\crowd\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+03/08/2022  08:58:51 AM : comtypes.client._code_cache : INFO : Using writeable comtypes cache directory: 'D:\jupyter_notebook\crowd_count\crowd\lib\site-packages\comtypes\gen'
+03/08/2022  08:59:04 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  08:59:06 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  08:59:08 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  08:59:15 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  08:59:21 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  08:59:27 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  09:00:56 AM : root : INFO : Video uploaded
+03/08/2022  09:01:00 AM : comtypes.client._code_cache : INFO : Imported existing <module 'comtypes.gen' from 'D:\\jupyter_notebook\\crowd_count\\crowd\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+03/08/2022  09:01:00 AM : comtypes.client._code_cache : INFO : Using writeable comtypes cache directory: 'D:\jupyter_notebook\crowd_count\crowd\lib\site-packages\comtypes\gen'
+03/08/2022  09:01:02 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  09:01:03 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  09:01:05 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  09:01:47 AM : root : INFO : Video uploaded
+03/08/2022  09:01:52 AM : comtypes.client._code_cache : INFO : Imported existing <module 'comtypes.gen' from 'D:\\jupyter_notebook\\crowd_count\\crowd\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+03/08/2022  09:01:52 AM : comtypes.client._code_cache : INFO : Using writeable comtypes cache directory: 'D:\jupyter_notebook\crowd_count\crowd\lib\site-packages\comtypes\gen'
+03/08/2022  09:01:54 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  09:01:56 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  09:01:57 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  09:02:04 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  09:02:09 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  09:02:15 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  09:30:22 AM : root : INFO : Video uploaded
+03/08/2022  09:30:27 AM : comtypes.client._code_cache : INFO : Imported existing <module 'comtypes.gen' from 'D:\\jupyter_notebook\\crowd_count\\crowd\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+03/08/2022  09:30:27 AM : comtypes.client._code_cache : INFO : Using writeable comtypes cache directory: 'D:\jupyter_notebook\crowd_count\crowd\lib\site-packages\comtypes\gen'
+03/08/2022  09:30:30 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  09:30:32 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  09:30:34 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  09:30:59 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  09:31:05 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  09:31:12 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  09:31:18 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  09:31:25 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  09:31:31 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  09:58:52 AM : root : INFO : input image uploaded
+03/08/2022  09:59:07 AM : comtypes.client._code_cache : INFO : Imported existing <module 'comtypes.gen' from 'D:\\jupyter_notebook\\crowd_count\\crowd\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+03/08/2022  09:59:07 AM : comtypes.client._code_cache : INFO : Using writeable comtypes cache directory: 'D:\jupyter_notebook\crowd_count\crowd\lib\site-packages\comtypes\gen'
+03/08/2022  09:59:12 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  10:01:38 AM : root : INFO : input image uploaded
+03/08/2022  10:01:42 AM : comtypes.client._code_cache : INFO : Imported existing <module 'comtypes.gen' from 'D:\\jupyter_notebook\\crowd_count\\crowd\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+03/08/2022  10:01:42 AM : comtypes.client._code_cache : INFO : Using writeable comtypes cache directory: 'D:\jupyter_notebook\crowd_count\crowd\lib\site-packages\comtypes\gen'
+03/08/2022  10:01:47 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  10:04:24 AM : root : INFO : input image uploaded
+03/08/2022  10:10:12 AM : root : INFO : input image uploaded
+03/08/2022  10:10:17 AM : comtypes.client._code_cache : INFO : Imported existing <module 'comtypes.gen' from 'D:\\jupyter_notebook\\crowd_count\\crowd\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+03/08/2022  10:10:17 AM : comtypes.client._code_cache : INFO : Using writeable comtypes cache directory: 'D:\jupyter_notebook\crowd_count\crowd\lib\site-packages\comtypes\gen'
+03/08/2022  10:10:21 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg
+03/08/2022  10:13:12 AM : root : INFO : input image uploaded
+03/08/2022  10:13:16 AM : comtypes.client._code_cache : INFO : Imported existing <module 'comtypes.gen' from 'D:\\jupyter_notebook\\crowd_count\\crowd\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+03/08/2022  10:13:16 AM : comtypes.client._code_cache : INFO : Using writeable comtypes cache directory: 'D:\jupyter_notebook\crowd_count\crowd\lib\site-packages\comtypes\gen'
+03/08/2022  10:13:20 AM : root : INFO : Density map of your input has been saved in density_maps\output.jpg

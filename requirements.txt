@@ -6,5 +6,6 @@ scipy
 torch
 torchvision
 torchaudio
+pyttsx3
 
 -e .

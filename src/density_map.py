@@ -8,7 +8,7 @@ class density:
     def __init__(self, config_path):
         content = read_yaml(config_path)
         self.leafsize = content['base']['kdtree_leafsize']
-        self.nearest_points = content['base']['number_of_nearset_points']
+        self.nearest_points = content['base']['number_of_nearset_points']  # 4
         log_dir = content['base']['log_dir']
         log_filename = content['base']['log_file']
         self.logfile = os.path.join('src', log_dir, log_filename)
