@@ -20,6 +20,15 @@ PyTorch
 ### View my project
 
 [Demo](https://www.linkedin.com/posts/arnab-mitra-882756227_connections-computervision-datascience-activity-6959506473651490816-w4cI?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
+## Documents
+
+### [HLD](https://drive.google.com/file/d/14aVBiCVZkYYQy5pFEB2UTLxxMSNQEp7A/view?usp=sharing)
+### [LLD](https://drive.google.com/file/d/1r1aXXx1fLZPpFODBRinFyfh0QfSAzcJ7/view?usp=sharing)
+### [ARCHITECTURE DESIGN](https://drive.google.com/file/d/1fnlLpyLsUnSuOrAGYN36lh-whAL4-B0C/view?usp=sharing)
+### [WIREFRAME DOCUMENTATION](https://drive.google.com/file/d/1L95a0mbfXeG5RjSqOPqXMfM_X0g5T0K7/view?usp=sharing)
+### [DETAILED PROJECT REPORT](https://drive.google.com/file/d/1d5mknzfzzkN0a04IzntiYXNq9BIoWSjJ/view?usp=sharing)
+
 ## Steps
 
 ### First go to the project directory and run 'python src/app.py' in command line.
@@ -33,6 +42,10 @@ PyTorch
 ## Dataset 
 
 [SanghaiTech Dataset](https://www.kaggle.com/datasets/tthien/shanghaitech)
+
+## Team
+### (Arnab Mitra)[https://github.com/Arnab1998-cyber]
+### (Subhradipta Paul)[https://github.com/SDP010]
 
 ## Paper link
 [MCNN PAPER](https://people.eecs.berkeley.edu/~yima/psfile/Single-Image-Crowd-Counting.pdf)
