@@ -17,9 +17,7 @@ PyTorch
 
 ## Project Demo
 
-### View my project
-
-[Demo](https://www.linkedin.com/posts/arnab-mitra-882756227_connections-computervision-datascience-activity-6959506473651490816-w4cI?utm_source=linkedin_share&utm_medium=member_desktop_web)
+### [Demo](https://www.linkedin.com/posts/arnab-mitra-882756227_connections-computervision-datascience-activity-6959506473651490816-w4cI?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
 ## Documents
 
@@ -44,8 +42,8 @@ PyTorch
 [SanghaiTech Dataset](https://www.kaggle.com/datasets/tthien/shanghaitech)
 
 ## Team
-### (Arnab Mitra)[https://github.com/Arnab1998-cyber]
-### (Subhradipta Paul)[https://github.com/SDP010]
+### [Arnab Mitra](https://github.com/Arnab1998-cyber)
+### [Subhradipta Paul](https://github.com/SDP010)
 
 ## Paper link
 [MCNN PAPER](https://people.eecs.berkeley.edu/~yima/psfile/Single-Image-Crowd-Counting.pdf)
