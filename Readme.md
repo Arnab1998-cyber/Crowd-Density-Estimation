@@ -17,7 +17,7 @@ PyTorch
 
 ## Project Demo
 
-### [Demo](https://www.linkedin.com/posts/arnab-mitra-882756227_connections-computervision-datascience-activity-6959506473651490816-w4cI?utm_source=linkedin_share&utm_medium=member_desktop_web)
+### [Demo](https://www.linkedin.com/posts/arnab-mitra-882756227_connections-computervision-ai-activity-6962065440877543424-XG-4?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
 ## Documents
 
